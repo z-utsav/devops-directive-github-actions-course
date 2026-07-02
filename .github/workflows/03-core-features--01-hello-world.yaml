@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Print Hello
-      - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
+        run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
